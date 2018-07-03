@@ -1,5 +1,4 @@
 @import '../variables';
-@import url('http://allfont.net/allfont.css?fonts=good-times');
 
 .HomePage {
   .wrapper {
@@ -10,107 +9,8 @@
     margin: 0 auto;
   }
 
-  .title-block {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    z-index: 1000;
-  }
-
-  .title-center {
-    margin: auto;
-  }
-
-  .title {
-    font-weight: 200;
-    color: #0574bc;
-    text-align: center;
-    font-family: 'Good Times', arial;
-
-    @media #{$small} {
-      font-size: 4.8em;
-    }
-
-    @media #{$large} {
-      font-size: 7em;
-    }
-  }
-
-  .explanation {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 0 175px 0;
-    z-index: 1000;
-  }
-  
-  .info {
-    display: flex;
-    justify-content: center;
-  }
-
-  .info-block {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
-    @media #{$wrap} {
-      width: 70%;
-      justify-content: center;
-    }
-  }
-
-  .svg {
-    display: flex;
-    justify-content: center;
-    height: 90px;
-    width: 90px;
-    margin: 0 auto 10px auto;
-  }
-
-  .info-text {
-    width: 300px;
-    color: white;
-    font-size: 1.1rem;
-    font-weight: normal;
-    text-align: center;
-    line-height: 28px;
-    -webkit-font-smoothing: antialiased;
-  }
-
-  .info-spacing {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 15px 35px 75px 35px;
-
-    @media #{$wrap} {
-      flex-basis: 30%;
-      margin: 15px 50px 75px 50px;
-    }
-
-    @media #{$small} {
-      max-width: 300px;
-      margin: 0 0 70px 0;
-    }
-  }
-
-  .subtitle {
-    line-height: 1.35;
-    font-weight: 100;
-    color: #0574bc;
-    margin: 0 0 30px 0;
-    text-align: center;
-
-    @media #{$small} {
-      font-size: 4em;
-      max-width: 320px;
-    }
-
-    @media #{$large} {
-      font-size: 4.8em;
-    }
+  .avatar {
+    height: 200px;
+    width: 200px;
   }
 }

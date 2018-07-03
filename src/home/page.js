@@ -1,5 +1,5 @@
 import React from "react";
-import { Typography, Divider } from "@material-ui/core";
+import Avatar from '@material-ui/core/Avatar';
 import "./page.css";
 
 const styles = ({
@@ -16,9 +16,13 @@ const styles = ({
 export default class HomePage extends React.Component {
   render() {
     return (
-      <div className="HomePage">
-        <div className="wrapper">
-
+      <div className='HomePage'>
+        <div className='wrapper'>
+          <Avatar 
+            alt='MDB'
+            className='avatar'
+            src={require('../static/selfie.jpg')}
+          />
         </div>
       </div >
     )
