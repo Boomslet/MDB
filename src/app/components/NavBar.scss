@@ -1,7 +1,8 @@
 .NavBar {
+  background: #14181E;
   display: flex;
+  height: 80px;
   justify-content: space-between;
-  background: linear-gradient(to right,#00c4cc,#0574bc);
 
   .navlink {
     color: white;
@@ -10,11 +11,5 @@
     margin: auto;
     text-decoration: none;
     text-transform: none;
-  }
-
-  .right-panel {
-    display: flex;
-    justify-content: space-between;
-    width: 195px;
   }
 }
