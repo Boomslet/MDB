@@ -1,0 +1,20 @@
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(to right,#00c4cc,#0574bc);
+
+  .navlink {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin: auto;
+    text-decoration: none;
+    text-transform: none;
+  }
+
+  .right-panel {
+    display: flex;
+    justify-content: space-between;
+    width: 195px;
+  }
+}
