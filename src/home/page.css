@@ -1,10 +1,35 @@
-.HomePage .wrapper {
+.HomePage {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  padding: 0 0 80px 0; }
+
+.HomePage .header {
+  align-items: center;
+  background: url("../static/laptop4.jpg");
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  height: inherit;
+  justify-content: center; }
+
+.HomePage .aboutme {
   align-items: center;
-  margin: 0 auto; }
+  background: #14181E;
+  display: flex;
+  justify-content: center;
+  height: 100vh; }
+
+.HomePage .aboutme-wrapper {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 42px;
+  font-weight: 300;
+  text-align: left;
+  width: 65%; }
 
 .HomePage .avatar {
   height: 200px;
-  width: 200px; }
+  width: 200px;
+  margin: 0 0 80px 0; }

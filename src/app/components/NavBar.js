@@ -11,7 +11,7 @@ import "./NavBar.css";
 class NavBar extends React.Component {
   render() {
     return (
-      <div className="NavBar">
+      <React.Fragment>
         <AppBar
           position="fixed"
         >
@@ -27,7 +27,7 @@ class NavBar extends React.Component {
             </NavLink>
           </Toolbar>
         </AppBar>
-      </div>
+      </React.Fragment>
     )
   };
 };

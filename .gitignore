@@ -6,8 +6,11 @@
 # testing
 /coverage
 
+# static
+/src/app/static
+
 # production
-/build
+src/static
 
 # misc
 .DS_Store
