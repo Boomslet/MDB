@@ -37,7 +37,7 @@ export default class HomePage extends React.Component {
             raised
           >
             <CardMedia
-              classes={{ root: 'card-image' }}
+              classes={{ root: 'card-image-lifetab' }}
               image={require('../static/jpg/lt2.png')}
               title="CryptoLottery"
             />
@@ -50,7 +50,7 @@ export default class HomePage extends React.Component {
                 CryptoLottery
               </Typography>
               <Typography>
-                Sole Full Stack Developer.
+                Founder & Full Stack Developer.
               </Typography>
             </CardContent>
           </Card>
@@ -60,8 +60,8 @@ export default class HomePage extends React.Component {
             raised
           >
             <CardMedia
-              classes={{ root: 'card-image' }}
-              image={require('../static/jpg/lt2.png')}
+              classes={{ root: 'card-image-calendar' }}
+              image={require('../static/jpg/fc.png')}
               title="Frictionless Calendar"
             />
             <CardContent>
@@ -73,7 +73,7 @@ export default class HomePage extends React.Component {
                 Frictionless Calendar
               </Typography>
               <Typography>
-                Sole iOS & Android Developer.
+                Co-Founder & iOS / Android Developer.
               </Typography>
             </CardContent>
           </Card>
@@ -83,7 +83,7 @@ export default class HomePage extends React.Component {
             raised
           >
             <CardMedia
-              classes={{ root: 'card-image' }}
+              classes={{ root: 'card-image-lifetab' }}
               image={require('../static/jpg/lt2.png')}
               title="lifetab 3.0"
             />

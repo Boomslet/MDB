@@ -46,9 +46,13 @@
   height: 200px;
   width: 200px; }
 
-.HomePage .card-image {
+.HomePage .card-image-lifetab {
   height: 300px;
   background-size: 305px; }
+
+.HomePage .card-image-calendar {
+  height: 300px;
+  background-size: 205px 278px; }
 
 .HomePage .card {
   width: 275px; }
