@@ -3,28 +3,52 @@
   width: 100%;
   position: relative;
   padding: 0 0 80px 0; }
-  .HomePage .header {
-    align-items: center;
-    background: url("../static/jpg/laptop3.jpg");
-    background-size: 100vw 100vh;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    height: inherit;
-    justify-content: center; }
-  .HomePage .about-me {
-    align-items: center;
-    background: #14181E;
-    display: flex;
-    justify-content: center;
-    height: 100vh; }
-  .HomePage .aboutme-text {
-    color: white;
-    font-family: 'Raleway', sans-serif;
-    font-size: 42px;
-    font-weight: 300;
-    text-align: left;
-    width: 65%; }
-  .HomePage .avatar {
-    height: 200px;
-    width: 200px; }
+
+.HomePage .header {
+  align-items: center;
+  background: url("../static/jpg/laptop3.jpg");
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+  justify-content: center; }
+
+.HomePage .about-me {
+  align-items: center;
+  background: #14181E;
+  display: flex;
+  justify-content: center;
+  height: 100vh; }
+
+.HomePage .projects {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  height: 100vh; }
+
+.HomePage .aboutme-text {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 42px;
+  font-weight: 300;
+  text-align: left;
+  width: 65%; }
+
+.HomePage .project-text {
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: left; }
+
+.HomePage .avatar {
+  height: 200px;
+  width: 200px; }
+
+.HomePage .card-image {
+  height: 300px;
+  background-size: 305px; }
+
+.HomePage .card {
+  width: 275px; }

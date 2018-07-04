@@ -43,9 +43,7 @@ class NavBar extends React.Component {
               </Button>
 
               <Button
-                classes={{
-                  root: 'button'
-                }}
+                classes={{ root: 'button' }}
                 disableRipple
                 onClick={() => this.handleScroll('.aboutme-text')}
               >
@@ -58,13 +56,18 @@ class NavBar extends React.Component {
                 </Typography>
               </Button>
 
-              <Typography variant="title"
-                classes={{
-                  root: "nav-text"
-                }}
+              <Button
+                classes={{ root: 'button' }}
+                disableRipple
+                onClick={() => this.handleScroll('.card')}
               >
-                PROJECTS
-              </Typography>
+                <Typography
+                  classes={{ root: "nav-text" }}
+                  variant="title"
+                >
+                  PROJECTS
+                </Typography>
+              </Button>
 
               <Typography variant="title"
                 classes={{

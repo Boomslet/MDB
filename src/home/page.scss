@@ -25,6 +25,13 @@
     height: 100vh;
   }
 
+  .projects {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+  }
+
   .aboutme-text {
     color: white;
     font-family: 'Raleway', sans-serif;
@@ -34,8 +41,25 @@
     width: 65%;
   }
 
+  .project-text {
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: left;
+  }
+
   .avatar {
     height: 200px;
     width: 200px;
+  }
+
+  .card-image {
+    height: 300px;
+    background-size: 305px;
+  }
+
+  .card {
+    width: 275px;
   }
 }
