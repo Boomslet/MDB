@@ -3,30 +3,21 @@
 .HomePage {
   height: 100vh;
   width: 100%;
-<<<<<<< HEAD
   position: relative;
   padding: 0 0 80px 0;
 
   .header {
     align-items: center;
-    background: url('../static/laptop4.jpg');
+    background: url('../static/jpg/laptop3.jpg');
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
-=======
-  position: fixed;
-  padding: 0 0 80px 0;
-
-  .wrapper {
-    align-items: center;
->>>>>>> cb1aea6664fca7e9eaf4b739eb02c51b4a47e5b1
     display: flex;
     flex-direction: column;
     height: inherit;
     justify-content: center;
-<<<<<<< HEAD
   }
 
-  .aboutme {
+  .about-me {
     align-items: center;
     background: #14181E;
     display: flex;
@@ -34,21 +25,17 @@
     height: 100vh;
   }
 
-  .aboutme-wrapper {
+  .aboutme-text {
     color: white;
     font-family: 'Raleway', sans-serif;
     font-size: 42px;
     font-weight: 300;
     text-align: left;
     width: 65%;
-=======
-    margin: 0 auto;
->>>>>>> cb1aea6664fca7e9eaf4b739eb02c51b4a47e5b1
   }
 
   .avatar {
     height: 200px;
     width: 200px;
-    margin: 0 0 80px 0;
   }
 }

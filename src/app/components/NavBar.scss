@@ -4,12 +4,43 @@
   height: 80px;
   justify-content: space-between;
 
-  .navlink {
-    color: white;
-    font-family: 'Soleil', sans-serif;
-    font-weight: 400;
-    margin: auto;
+  .button {
+    background-color: inherit;
     text-decoration: none;
     text-transform: none;
+    margin: 0;
+    padding: 0;
+    min-width: 0px;
+  }
+
+  .button:hover {
+    background-color: inherit;
+    text-decoration: none;
+    text-transform: none;
+    margin: 0;
+    padding: 0;
+    min-width: 0px;
+    min-height: 0px;
+  }
+  
+  .navigation {
+    display: flex;
+    justify-self: flex-start;
+  }
+
+  .nav-text {
+    align-content: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin: auto;
+    padding: 0 15px 0 15px;
+  }
+
+  .svg {
+    color: white;
+    font-size: 30px;
+    padding: 0 15px 0 15px;
   }
 }
