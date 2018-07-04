@@ -36,5 +36,7 @@
 
 .NavBar .svg {
   color: white;
-  font-size: 30px;
-  padding: 0 15px 0 15px; }
+  font-size: 30px; }
+
+.NavBar .svg-button {
+  padding: 0 15px 0 0px; }
