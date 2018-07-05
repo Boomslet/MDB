@@ -14,7 +14,23 @@
   height: inherit;
   justify-content: center; }
 
+.HomePage .header-text {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 42px;
+  font-weight: 300;
+  padding: 0 0 280px 0;
+  text-align: center;
+  width: 65%; }
+
 .HomePage .about-me {
+  align-items: center;
+  background: #14181E;
+  display: flex;
+  justify-content: center;
+  height: 100vh; }
+
+.HomePage .contact {
   align-items: center;
   background: #14181E;
   display: flex;
@@ -37,14 +53,15 @@
 
 .HomePage .project-text {
   color: black;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Soleil', sans-serif;
   font-size: 20px;
   font-weight: 300;
   text-align: left; }
 
 .HomePage .avatar {
   height: 200px;
-  width: 200px; }
+  width: 200px;
+  position: absolute; }
 
 .HomePage .card-image-lifetab {
   height: 300px;

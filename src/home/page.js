@@ -15,6 +15,7 @@ export default class HomePage extends React.Component {
 
         {/* SPLASH HEADER */}
         <div className='header'>
+
           <Avatar
             alt='MDB'
             className='avatar'
@@ -100,6 +101,9 @@ export default class HomePage extends React.Component {
               </Typography>
             </CardContent>
           </Card>
+        </div>
+
+        <div className='contact'>
         </div>
 
       </div >
