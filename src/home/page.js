@@ -62,7 +62,7 @@ export default class HomePage extends React.Component {
           >
             <CardMedia
               classes={{ root: 'card-image-calendar' }}
-              image={require('../static/jpg/fc.png')}
+              // image={require('../static/jpg/fc.png')}
               title="Frictionless Calendar"
             />
             <CardContent>
@@ -103,7 +103,22 @@ export default class HomePage extends React.Component {
           </Card>
         </div>
 
+        {/* CONTACT DETAILS */}
         <div className='contact'>
+
+          <div className='contact-wrapper'>
+            <Typography classes={{ root: 'contact-text-small' }}>
+              GET IN TOUCH
+            </Typography>
+
+            <Typography classes={{ root: 'contact-text-large' }}>
+              boon.webdevelopment@gmail.com
+            </Typography>
+          </div>
+
+          <Typography classes={{ root: 'contact-text-tiny' }}>
+            2018 - SOMEWHERE IN WESTERN AUSTRALIA
+          </Typography>
         </div>
 
       </div >
