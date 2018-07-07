@@ -16,7 +16,11 @@ export default class HomePage extends React.Component {
 
         {/* SPLASH HEADER */}
         <div className='header'>
-
+          <Typography
+            classes={{root: 'header-text'}}
+          >
+            Mark Boon
+          </Typography>
           <Avatar
             alt='MDB'
             className='avatar'
@@ -28,7 +32,7 @@ export default class HomePage extends React.Component {
         <div className='about-me'>
           <Typography classes={{ root: 'aboutme-text' }}>
             I am a Full Stack Web Developer and UI/UX Designer based in Perth, Australia.<br />
-            I have a passion for creating intuitive and responsive user experiences.
+            I have a passion for creating intuitive and responsive digital experiences.
           </Typography>
         </div>
 

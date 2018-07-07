@@ -6,7 +6,7 @@
 
 .HomePage .header {
   align-items: center;
-  background: url("../static/jpg/laptop3.jpg");
+  background: crimson;
   background-size: 100vw 100vh;
   background-repeat: no-repeat;
   display: flex;
@@ -15,10 +15,10 @@
   justify-content: center; }
 
 .HomePage .header-text {
-  color: white;
+  color: black;
   font-family: 'Raleway', sans-serif;
-  font-size: 42px;
-  font-weight: 300;
+  font-size: 36px;
+  font-weight: 500;
   padding: 0 0 280px 0;
   text-align: center;
   width: 65%; }
@@ -111,8 +111,8 @@
   text-align: left; }
 
 .HomePage .avatar {
-  height: 200px;
-  width: 200px;
+  height: 170px;
+  width: 170px;
   position: absolute; }
 
 .HomePage .crypto-avatar {
