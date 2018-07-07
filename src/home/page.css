@@ -48,7 +48,7 @@
 .HomePage .contact-text-tiny {
   color: white;
   font-family: 'Soleil', sans-serif;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 400;
   justify-self: flex-end;
   margin: auto;
@@ -75,7 +75,7 @@
   align-items: center;
   display: flex;
   justify-content: space-around;
-  height: 100vh; }
+  height: calc(100vh + 80px); }
 
 .HomePage .aboutme-text {
   color: white;
@@ -97,13 +97,38 @@
   width: 200px;
   position: absolute; }
 
+.HomePage .crypto-avatar {
+  height: 70px;
+  width: 70px;
+  background-color: #14181E; }
+
+.HomePage .cal-avatar {
+  height: 70px;
+  width: 70px; }
+
+.HomePage .lt-avatar {
+  height: 70px;
+  width: 70px; }
+
 .HomePage .card-image-lifetab {
-  height: 300px;
-  background-size: 305px; }
+  height: 230px; }
+
+.HomePage .card-image-crypto {
+  height: 230px;
+  background-color: #14181E; }
 
 .HomePage .card-image-calendar {
-  height: 300px;
-  background-size: 205px 278px; }
+  height: 230px;
+  background-color: #14181E; }
 
 .HomePage .card {
-  width: 275px; }
+  width: 325px;
+  height: 467px; }
+
+.HomePage .frameworks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.HomePage .subheading {
+  color: rgba(0, 0, 0, 0.54); }

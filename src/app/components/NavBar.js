@@ -14,7 +14,8 @@ class NavBar extends React.Component {
 
   handleScroll = element => {
     document.querySelector(element).scrollIntoView({
-      behavior: 'smooth'
+      behavior: 'smooth',
+      block: 'start',
     });
   }
 
@@ -28,11 +29,9 @@ class NavBar extends React.Component {
 
             <div className='navigation'>
               <Button
-                classes={{
-                  root: 'button'
-                }}
+                classes={{ root: 'button' }}
                 disableRipple
-                onClick={() => this.handleScroll('.avatar')}
+                onClick={() => this.handleScroll('.header')}
               >
                 <Typography variant="title"
                   classes={{
@@ -46,12 +45,11 @@ class NavBar extends React.Component {
               <Button
                 classes={{ root: 'button' }}
                 disableRipple
-                onClick={() => this.handleScroll('.aboutme-text')}
+                onClick={() => this.handleScroll('.about-me')}
               >
-                <Typography variant="title"
-                  classes={{
-                    root: "nav-text"
-                  }}
+                <Typography
+                  classes={{ root: "nav-text" }}
+                  variant="title"
                 >
                   ABOUT ME
                 </Typography>
@@ -60,7 +58,7 @@ class NavBar extends React.Component {
               <Button
                 classes={{ root: 'button' }}
                 disableRipple
-                onClick={() => this.handleScroll('.card')}
+                onClick={() => this.handleScroll('.projects')}
               >
                 <Typography
                   classes={{ root: "nav-text" }}
@@ -85,17 +83,17 @@ class NavBar extends React.Component {
             </div>
 
             <div>
-            <IconButton 
+              <IconButton
                 className='svg-button'
                 href='https://www.facebook.com/mark.boon.96'
-                target='_blank' 
+                target='_blank'
               >
                 <SvgIcon className='svg'>
                   <path d="M22.676 0H1.324C.593 0 0 .593 0 1.324v21.352C0 23.408.593 24 1.324 24h11.494v-9.294H9.689v-3.621h3.129V8.41c0-3.099 1.894-4.785 4.659-4.785 1.325 0 2.464.097 2.796.141v3.24h-1.921c-1.5 0-1.792.721-1.792 1.771v2.311h3.584l-.465 3.63H16.56V24h6.115c.733 0 1.325-.592 1.325-1.324V1.324C24 .593 23.408 0 22.676 0" />
                 </SvgIcon>
               </IconButton>
 
-              <IconButton 
+              <IconButton
                 className='svg-button'
                 href='https://github.com/Boomslet'
                 target='_blank'
