@@ -16,11 +16,6 @@ export default class HomePage extends React.Component {
 
         {/* SPLASH HEADER */}
         <div className='header'>
-          <Typography
-            classes={{root: 'header-text'}}
-          >
-            Mark Boon
-          </Typography>
           <Avatar
             alt='MDB'
             className='avatar'
