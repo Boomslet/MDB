@@ -83,7 +83,7 @@
 
   .projects {
     align-items: center;
-    background: url('../static/jpg/pbg.png');
+    background: url('../static/jpg/pbg.jpg');
     background-size: 100vw 100%;
     background-repeat: no-repeat;
     display: flex;
@@ -148,17 +148,18 @@
   }
     
   .card-image-lifetab {
+    background-color: #14181E;
     height: 230px;
   }
 
   .card-image-crypto {
-    height: 230px;
     background-color: #14181E;
+    height: 230px;
   }
   
   .card-image-calendar {
-    height: 230px;
     background-color: #14181E;
+    height: 230px;
   }
   
   .card {

@@ -115,7 +115,7 @@ export default class HomePage extends React.Component {
           >
             <CardHeader
               avatar={
-                <Avatar className='lt-avatar' src={require('../static/jpg/lt2.png')} />
+                <Avatar className='lt-avatar' src={require('../static/jpg/lt3.png')} />
               }
               classes={{ title: 'project-text', subheader: 'project-subtext' }}
               title='lifetab 3.0'
@@ -123,7 +123,7 @@ export default class HomePage extends React.Component {
             />
             <CardMedia
               classes={{ root: 'card-image-lifetab' }}
-              image={require('../static/jpg/lt2.png')}
+              // image={require('../static/jpg/lt2.png')}
               title="lifetab 3.0"
             />
             <CardContent>

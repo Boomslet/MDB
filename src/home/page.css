@@ -73,7 +73,7 @@
 
 .HomePage .projects {
   align-items: center;
-  background: url("../static/jpg/pbg.png");
+  background: url("../static/jpg/pbg.jpg");
   background-size: 100vw 100%;
   background-repeat: no-repeat;
   display: flex;
@@ -129,15 +129,16 @@
   width: 70px; }
 
 .HomePage .card-image-lifetab {
+  background-color: #14181E;
   height: 230px; }
 
 .HomePage .card-image-crypto {
-  height: 230px;
-  background-color: #14181E; }
+  background-color: #14181E;
+  height: 230px; }
 
 .HomePage .card-image-calendar {
-  height: 230px;
-  background-color: #14181E; }
+  background-color: #14181E;
+  height: 230px; }
 
 .HomePage .card {
   height: 467px;
