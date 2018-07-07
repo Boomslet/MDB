@@ -78,7 +78,7 @@
   background-repeat: no-repeat;
   display: flex;
   justify-content: space-around;
-  height: calc(100vh + 80px); }
+  height: calc(100vh + 64px); }
 
 .HomePage .aboutme-text {
   color: white;
@@ -86,7 +86,7 @@
   font-size: 42px;
   font-weight: 300;
   text-align: left;
-  width: 65%; }
+  width: 70%; }
 
 .HomePage .project-text {
   color: #14181E;
@@ -130,19 +130,19 @@
 
 .HomePage .card-image-lifetab {
   background-color: #14181E;
-  height: 230px; }
+  height: 200px; }
 
 .HomePage .card-image-crypto {
   background-color: #14181E;
-  height: 230px; }
+  height: 200px; }
 
 .HomePage .card-image-calendar {
   background-color: #14181E;
-  height: 230px; }
+  height: 200px; }
 
 .HomePage .card {
-  height: 467px;
-  width: 310px; }
+  height: 437px;
+  width: 290px; }
 
 .HomePage .card-font {
   font-family: 'Soleil', sans-serif; }
