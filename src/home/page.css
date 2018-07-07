@@ -97,6 +97,13 @@
   transform: scaleY(1.06); }
 
 .HomePage .project-subtext {
+  color: rgba(0, 0, 0, 0.54);
+  font-family: 'Soleil', sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  text-align: left; }
+
+.HomePage .project-text-small {
   color: black;
   font-family: 'Soleil', sans-serif;
   font-size: 17px;
@@ -133,8 +140,11 @@
   background-color: #14181E; }
 
 .HomePage .card {
-  width: 310px;
-  height: 467px; }
+  height: 467px;
+  width: 310px; }
+
+.HomePage .card-font {
+  font-family: 'Soleil', sans-serif; }
 
 .HomePage .frameworks {
   display: flex;
@@ -142,4 +152,5 @@
   justify-content: space-between; }
 
 .HomePage .subheading {
-  color: rgba(0, 0, 0, 0.54); }
+  color: rgba(0, 0, 0, 0.54);
+  font-family: 'Soleil', sans-serif; }

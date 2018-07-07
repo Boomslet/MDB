@@ -110,6 +110,14 @@
   }
 
   .project-subtext {
+    color: rgba(0, 0, 0, 0.54);
+    font-family: 'Soleil', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    text-align: left;
+  }
+
+  .project-text-small {
     color: black;
     font-family: 'Soleil', sans-serif;
     font-size: 17px;
@@ -154,8 +162,12 @@
   }
   
   .card {
-    width: 310px;
     height: 467px;
+    width: 310px;
+  }
+
+  .card-font {
+    font-family: 'Soleil', sans-serif;
   }
 
   .frameworks {
@@ -166,6 +178,7 @@
 
   .subheading {
     color: rgba(0, 0, 0, 0.54);
+    font-family: 'Soleil', sans-serif;
   }
 }
 

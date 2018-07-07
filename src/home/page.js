@@ -42,7 +42,7 @@ export default class HomePage extends React.Component {
               avatar={
                 <Avatar className='crypto-avatar' src={require('../static/jpg/4 White.png')} />
               }
-              classes={{ title: 'project-text' }}
+              classes={{ title: 'project-text', subheader: 'project-subtext' }}
               title='CryptoLottery'
               subheader='Founder & Full Stack Developer'
             />
@@ -54,7 +54,7 @@ export default class HomePage extends React.Component {
             />
             <CardContent>
               <Typography
-                classes={{ root: 'project-subtext' }}
+                classes={{ root: 'project-text-small' }}
                 gutterBottom
               >
                 Project Frameworks
@@ -86,7 +86,7 @@ export default class HomePage extends React.Component {
               avatar={
                 <Avatar className='cal-avatar' src={require('../static/jpg/cal.png')} />
               }
-              classes={{ title: 'project-text' }}
+              classes={{ title: 'project-text', subheader: 'project-subtext' }}
               title='Calendar App'
               subheader='Co-Founder & Android / iOS Developer'
             />
@@ -97,13 +97,14 @@ export default class HomePage extends React.Component {
             />
             <CardContent>
               <Typography
-                classes={{ root: 'project-subtext' }}
+                classes={{ root: 'project-text-small' }}
                 gutterBottom
               >
                 Project Frameworks
               </Typography>
               <Typography classes={{ root: 'subheading' }}>
                 React Native<br />
+                React Router Native<br />
                 Redux
               </Typography>
             </CardContent>
@@ -117,7 +118,7 @@ export default class HomePage extends React.Component {
               avatar={
                 <Avatar className='lt-avatar' src={require('../static/jpg/lt2.png')} />
               }
-              classes={{ title: 'project-text' }}
+              classes={{ title: 'project-text', subheader: 'project-subtext' }}
               title='lifetab 3.0'
               subheader='Front End Developer & UI/UX Designer'
             />
@@ -128,7 +129,7 @@ export default class HomePage extends React.Component {
             />
             <CardContent>
               <Typography
-                classes={{ root: 'project-subtext' }}
+                classes={{ root: 'project-text-small' }}
                 gutterBottom
               >
                 Project Frameworks
