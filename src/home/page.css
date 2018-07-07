@@ -30,6 +30,14 @@
   justify-content: center;
   height: 100vh; }
 
+.HomePage .aboutme-text {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 38px;
+  font-weight: 300;
+  text-align: left;
+  width: 70%; }
+
 .HomePage .contact {
   align-items: center;
   background: #14181E;
@@ -48,19 +56,19 @@
 .HomePage .contact-text-tiny {
   color: white;
   font-family: 'Soleil', sans-serif;
-  font-size: 10px;
+  font-size: 7px;
   font-weight: 400;
   justify-self: flex-end;
   margin: auto;
-  padding: 20px;
+  padding: 15px;
   text-align: center; }
 
 .HomePage .contact-text-small {
   color: white;
   font-family: 'Soleil', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
-  padding: 20px;
+  padding: 15px;
   text-align: center; }
 
 .HomePage .contact-text-large {
@@ -68,7 +76,7 @@
   font-family: 'Raleway', sans-serif;
   font-size: 35px;
   font-weight: 400;
-  padding: 10px;
+  padding: 5px;
   text-align: center; }
 
 .HomePage .projects {
@@ -79,14 +87,6 @@
   display: flex;
   justify-content: space-around;
   height: calc(100vh + 64px); }
-
-.HomePage .aboutme-text {
-  color: white;
-  font-family: 'Raleway', sans-serif;
-  font-size: 42px;
-  font-weight: 300;
-  text-align: left;
-  width: 70%; }
 
 .HomePage .project-text {
   color: #14181E;
@@ -142,7 +142,7 @@
 
 .HomePage .card {
   height: 410px;
-  width: 295px; }
+  width: 285px; }
 
 .HomePage .card-font {
   font-family: 'Soleil', sans-serif; }
