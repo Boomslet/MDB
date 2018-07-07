@@ -156,12 +156,3 @@
   color: rgba(0, 0, 0, 0.54);
   font-family: 'Soleil', sans-serif;
   font-size: 0.8rem; }
-; }
-  .HomePage .frameworks {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between; }
-  .HomePage .subheading {
-    color: rgba(0, 0, 0, 0.54);
-    font-family: 'Soleil', sans-serif;
-    font-size: 0.8rem; }
