@@ -73,6 +73,9 @@
 
 .HomePage .projects {
   align-items: center;
+  background: url("../static/jpg/pbg.png");
+  background-size: 100vw 100%;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: space-around;
   height: calc(100vh + 80px); }
@@ -86,9 +89,17 @@
   width: 65%; }
 
 .HomePage .project-text {
-  color: black;
+  color: #14181E;
   font-family: 'Soleil', sans-serif;
   font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  transform: scaleY(1.06); }
+
+.HomePage .project-subtext {
+  color: black;
+  font-family: 'Soleil', sans-serif;
+  font-size: 17px;
   font-weight: 300;
   text-align: left; }
 
@@ -122,7 +133,7 @@
   background-color: #14181E; }
 
 .HomePage .card {
-  width: 325px;
+  width: 310px;
   height: 467px; }
 
 .HomePage .frameworks {

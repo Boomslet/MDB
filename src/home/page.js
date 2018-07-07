@@ -54,9 +54,8 @@ export default class HomePage extends React.Component {
             />
             <CardContent>
               <Typography
-                classes={{ root: 'project-text' }}
+                classes={{ root: 'project-subtext' }}
                 gutterBottom
-                variant='title'
               >
                 Project Frameworks
               </Typography>
@@ -98,15 +97,12 @@ export default class HomePage extends React.Component {
             />
             <CardContent>
               <Typography
-                classes={{ root: 'project-text' }}
+                classes={{ root: 'project-subtext' }}
                 gutterBottom
-                variant='title'
               >
                 Project Frameworks
               </Typography>
-              <Typography
-                classes={{ root: 'subheading' }}
-              >
+              <Typography classes={{ root: 'subheading' }}>
                 React Native<br />
                 Redux
               </Typography>
@@ -132,16 +128,13 @@ export default class HomePage extends React.Component {
             />
             <CardContent>
               <Typography
-                classes={{ root: 'project-text' }}
+                classes={{ root: 'project-subtext' }}
                 gutterBottom
-                variant='title'
               >
                 Project Frameworks
               </Typography>
 
-              <Typography
-                classes={{ root: 'subheading' }}
-              >
+              <Typography classes={{ root: 'subheading' }}>
                 React<br />
                 React Router<br />
                 Redux
