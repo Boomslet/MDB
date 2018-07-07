@@ -3,132 +3,156 @@
   width: 100%;
   position: relative;
   padding: 0 0 80px 0; }
-  .HomePage .header {
-    align-items: center;
-    background: url("../static/jpg/laptop3.jpg");
-    background-size: 100vw 100vh;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    height: inherit;
-    justify-content: center; }
-  .HomePage .header-text {
-    color: black;
-    font-family: 'Soleil', sans-serif;
-    font-size: 36px;
-    font-weight: 500;
-    padding: 0 0 280px 0;
-    text-align: center;
-    width: 65%; }
-  .HomePage .about-me {
-    align-items: center;
-    background: #14181E;
-    display: flex;
-    justify-content: center;
-    height: 100vh; }
-  .HomePage .contact {
-    align-items: center;
-    background: #14181E;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100vh; }
-  .HomePage .contact-wrapper {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    justify-content: center;
-    width: 100%; }
-  .HomePage .contact-text-tiny {
-    color: white;
-    font-family: 'Soleil', sans-serif;
-    font-size: 10px;
-    font-weight: 400;
-    justify-self: flex-end;
-    margin: auto;
-    padding: 20px;
-    text-align: center; }
-  .HomePage .contact-text-small {
-    color: white;
-    font-family: 'Soleil', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    padding: 20px;
-    text-align: center; }
-  .HomePage .contact-text-large {
-    color: white;
-    font-family: 'Raleway', sans-serif;
-    font-size: 35px;
-    font-weight: 400;
-    padding: 10px;
-    text-align: center; }
-  .HomePage .projects {
-    align-items: center;
-    background: url("../static/jpg/pbg.jpg");
-    background-size: 100vw 100%;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: space-around;
-    height: calc(100vh + 64px); }
-  .HomePage .aboutme-text {
-    color: white;
-    font-family: 'Raleway', sans-serif;
-    font-size: 42px;
-    font-weight: 300;
-    text-align: left;
-    width: 70%; }
-  .HomePage .project-text {
-    color: #14181E;
-    font-family: 'Soleil', sans-serif;
-    font-size: 19px;
-    font-weight: bold;
-    text-align: left;
-    transform: scaleY(1.06); }
-  .HomePage .project-subtext {
-    color: rgba(0, 0, 0, 0.54);
-    font-family: 'Soleil', sans-serif;
-    font-size: 13px;
-    font-weight: 300;
-    text-align: left; }
-  .HomePage .project-text-small {
-    color: black;
-    font-family: 'Soleil', sans-serif;
-    font-size: 17px;
-    font-weight: 300;
-    text-align: left; }
-  .HomePage .avatar {
-    height: 170px;
-    width: 170px;
-    position: absolute; }
-  .HomePage .crypto-avatar {
-    height: 65px;
-    width: 65px;
-    background-color: #14181E; }
-  .HomePage .cal-avatar {
-    height: 65px;
-    width: 65px; }
-  .HomePage .lt-avatar {
-    height: 65px;
-    width: 65px; }
-  .HomePage .card-image-lifetab {
-    background-color: #14181E;
-    height: 200px; }
-  .HomePage .card-image-crypto {
-    background-color: #14181E;
-    height: 200px; }
-  .HomePage .card-image-calendar {
-    background-color: #14181E;
-    height: 200px; }
-  .HomePage .card {
-    height: 405px;
-    width: 285px; }
-  .HomePage .card-font {
-    font-family: 'Soleil', sans-serif; }
-  .HomePage .frameworks {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between; }
-  .HomePage .subheading {
-    color: rgba(0, 0, 0, 0.54);
-    font-family: 'Soleil', sans-serif;
-    font-size: 0.8rem; }
+
+.HomePage .header {
+  align-items: center;
+  background: url("../static/jpg/laptop3.jpg");
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+  justify-content: center; }
+
+.HomePage .header-text {
+  color: black;
+  font-family: 'Soleil', sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  padding: 0 0 280px 0;
+  text-align: center;
+  width: 65%; }
+
+.HomePage .about-me {
+  align-items: center;
+  background: #14181E;
+  display: flex;
+  justify-content: center;
+  height: 100vh; }
+
+.HomePage .contact {
+  align-items: center;
+  background: #14181E;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh; }
+
+.HomePage .contact-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  width: 100%; }
+
+.HomePage .contact-text-tiny {
+  color: white;
+  font-family: 'Soleil', sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  justify-self: flex-end;
+  margin: auto;
+  padding: 20px;
+  text-align: center; }
+
+.HomePage .contact-text-small {
+  color: white;
+  font-family: 'Soleil', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 20px;
+  text-align: center; }
+
+.HomePage .contact-text-large {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  padding: 10px;
+  text-align: center; }
+
+.HomePage .projects {
+  align-items: center;
+  background: url("../static/jpg/pbg.jpg");
+  background-size: 100vw 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-around;
+  height: calc(100vh + 64px); }
+
+.HomePage .aboutme-text {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 42px;
+  font-weight: 300;
+  text-align: left;
+  width: 70%; }
+
+.HomePage .project-text {
+  color: #14181E;
+  font-family: 'Soleil', sans-serif;
+  font-size: 19px;
+  font-weight: bold;
+  text-align: left;
+  transform: scaleY(1.06); }
+
+.HomePage .project-subtext {
+  color: rgba(0, 0, 0, 0.54);
+  font-family: 'Soleil', sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  text-align: left; }
+
+.HomePage .project-text-small {
+  color: black;
+  font-family: 'Soleil', sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  text-align: left; }
+
+.HomePage .avatar {
+  height: 170px;
+  width: 170px;
+  position: absolute; }
+
+.HomePage .crypto-avatar {
+  height: 65px;
+  width: 65px;
+  background-color: #14181E; }
+
+.HomePage .cal-avatar {
+  height: 65px;
+  width: 65px; }
+
+.HomePage .lt-avatar {
+  height: 65px;
+  width: 65px; }
+
+.HomePage .card-image-lifetab {
+  background-color: #14181E;
+  height: 180px; }
+
+.HomePage .card-image-crypto {
+  background-color: #14181E;
+  height: 180px; }
+
+.HomePage .card-image-calendar {
+  background-color: #14181E;
+  height: 180px; }
+
+.HomePage .card {
+  height: 410px;
+  width: 285px; }
+
+.HomePage .card-font {
+  font-family: 'Soleil', sans-serif; }
+
+.HomePage .frameworks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.HomePage .subheading {
+  color: rgba(0, 0, 0, 0.54);
+  font-family: 'Soleil', sans-serif;
+  font-size: 0.8rem; }
