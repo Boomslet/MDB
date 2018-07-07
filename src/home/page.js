@@ -19,7 +19,7 @@ export default class HomePage extends React.Component {
           <Avatar
             alt='MDB'
             className='avatar'
-            src={require('../static/jpg/selfie4.jpg')}
+            src={require('../static/jpg/selfie5.jpg')}
           />
         </div>
 
