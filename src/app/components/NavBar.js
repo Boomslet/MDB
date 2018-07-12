@@ -10,7 +10,7 @@ import SvgIcon from '@material-ui/core/SvgIcon';
 
 import "./NavBar.css";
 
-var mobile = window.matchMedia("only screen and (max-width: 999px)")
+var mobile = window.matchMedia("only screen and (max-width: 499px)").matches
 
 class NavBar extends React.Component {
 

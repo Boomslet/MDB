@@ -4,7 +4,10 @@
   background: #14181E;
   display: flex;
   justify-content: space-between;
-  width: 100vw;
+  
+  @media #{$small} {
+    width: calc(100vw - 32px);
+  }
   
   .button {
     background-color: inherit;

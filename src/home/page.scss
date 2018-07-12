@@ -135,7 +135,16 @@
     background-repeat: no-repeat;
     display: flex;
     justify-content: space-around;
-    height: calc(100vh + 64px);
+    
+    @media #{$small} {
+      flex-direction: column;
+      flex-wrap: wrap;
+      height: calc((5 * 64px) + (3 * 395px));
+    }
+    
+    @media #{$large} {
+      height: calc(100vh + 64px);
+    }
   }
 
   .project-text {
@@ -203,6 +212,10 @@
   .card {
     height: 395px;
     width: 285px;
+
+    @media #{$small} {
+      margin: 64px 0 0 0;
+    }
   }
 
   .card-font {

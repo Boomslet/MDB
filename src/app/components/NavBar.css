@@ -1,8 +1,11 @@
 .NavBar {
   background: #14181E;
   display: flex;
-  justify-content: space-between;
-  width: 100vw; }
+  justify-content: space-between; }
+
+@media only screen and (max-width: 499px) {
+  .NavBar {
+    width: calc(100vw - 32px); } }
 
 .NavBar .button {
   background-color: inherit;
@@ -25,7 +28,7 @@
   display: flex;
   justify-self: flex-start; }
 
-@media only screen and (max-width: 999px) {
+@media only screen and (max-width: 499px) {
   .NavBar .navigation {
     flex-direction: row;
     justify-content: space-between;
@@ -38,11 +41,11 @@
   font-weight: 400;
   margin: auto; }
 
-@media only screen and (max-width: 999px) {
+@media only screen and (max-width: 499px) {
   .NavBar .nav-text {
     font-size: 12px; } }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 500px) {
   .NavBar .nav-text {
     font-size: 14px;
     padding: 0 25px 0 0; } }
