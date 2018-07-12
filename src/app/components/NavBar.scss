@@ -1,8 +1,11 @@
+@import '../../variables';
+
 .NavBar {
   background: #14181E;
   display: flex;
   justify-content: space-between;
-
+  width: 100vw;
+  
   .button {
     background-color: inherit;
     text-decoration: none;
@@ -11,7 +14,7 @@
     padding: 0;
     min-width: 0px;
   }
-
+  
   .button:hover {
     background-color: inherit;
     text-decoration: none;
@@ -25,16 +28,29 @@
   .navigation {
     display: flex;
     justify-self: flex-start;
-  }
 
+    @media #{$small} {
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+    }
+  }
+  
   .nav-text {
     align-content: center;
     color: white;
     font-family: 'Soleil', sans-serif;
     font-weight: 400;
-    font-size: 14px;
     margin: auto;
-    padding: 0 25px 0 0;
+    
+    @media #{$small} {
+      font-size: 12px;
+    }
+    
+    @media #{$large} {
+      font-size: 14px;
+      padding: 0 25px 0 0;
+    }
   }
 
   .svg {

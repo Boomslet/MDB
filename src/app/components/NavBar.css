@@ -1,7 +1,8 @@
 .NavBar {
   background: #14181E;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  width: 100vw; }
 
 .NavBar .button {
   background-color: inherit;
@@ -24,14 +25,27 @@
   display: flex;
   justify-self: flex-start; }
 
+@media only screen and (max-width: 999px) {
+  .NavBar .navigation {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%; } }
+
 .NavBar .nav-text {
   align-content: center;
   color: white;
   font-family: 'Soleil', sans-serif;
   font-weight: 400;
-  font-size: 14px;
-  margin: auto;
-  padding: 0 25px 0 0; }
+  margin: auto; }
+
+@media only screen and (max-width: 999px) {
+  .NavBar .nav-text {
+    font-size: 12px; } }
+
+@media only screen and (min-width: 1000px) {
+  .NavBar .nav-text {
+    font-size: 14px;
+    padding: 0 25px 0 0; } }
 
 .NavBar .svg {
   color: white;

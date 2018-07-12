@@ -6,22 +6,37 @@
 
 .HomePage .header {
   align-items: center;
-  background: url("../static/jpg/laptop4.jpg");
-  background-size: 100vw 100vh;
-  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   height: inherit;
   justify-content: center; }
 
+@media only screen and (max-width: 999px) {
+  .HomePage .header {
+    background: blueviolet; } }
+
+@media only screen and (min-width: 1000px) {
+  .HomePage .header {
+    background: url("../static/jpg/laptop4.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh; } }
+
 .HomePage .header-text {
   color: black;
   font-family: 'Soleil', sans-serif;
-  font-size: 36px;
   font-weight: 500;
   padding: 0 0 280px 0;
-  text-align: center;
-  width: 65%; }
+  text-align: center; }
+
+@media only screen and (max-width: 999px) {
+  .HomePage .header-text {
+    font-size: 16px;
+    width: 75%; } }
+
+@media only screen and (min-width: 1000px) {
+  .HomePage .header-text {
+    font-size: 36px;
+    width: 65%; } }
 
 .HomePage .about-me {
   align-items: center;
@@ -33,10 +48,18 @@
 .HomePage .aboutme-text {
   color: white;
   font-family: 'Raleway', sans-serif;
-  font-size: 38px;
   font-weight: 300;
-  text-align: left;
-  width: 70%; }
+  text-align: left; }
+
+@media only screen and (max-width: 999px) {
+  .HomePage .aboutme-text {
+    font-size: 25px;
+    width: 75%; } }
+
+@media only screen and (min-width: 1000px) {
+  .HomePage .aboutme-text {
+    font-size: 38px;
+    width: 70%; } }
 
 .HomePage .contact {
   align-items: center;
@@ -66,18 +89,33 @@
 .HomePage .contact-text-small {
   color: white;
   font-family: 'Soleil', sans-serif;
-  font-size: 14px;
   font-weight: 400;
   padding: 15px;
   text-align: center; }
 
+@media only screen and (max-width: 999px) {
+  .HomePage .contact-text-small {
+    font-size: 12px; } }
+
+@media only screen and (min-width: 1000px) {
+  .HomePage .contact-text-small {
+    font-size: 14px; } }
+
 .HomePage .contact-text-large {
   color: white;
   font-family: 'Raleway', sans-serif;
-  font-size: 35px;
-  font-weight: 400;
   padding: 5px;
   text-align: center; }
+
+@media only screen and (max-width: 999px) {
+  .HomePage .contact-text-large {
+    font-size: 17px;
+    font-weight: 500; } }
+
+@media only screen and (min-width: 1000px) {
+  .HomePage .contact-text-large {
+    font-size: 35px;
+    font-weight: 400; } }
 
 .HomePage .projects {
   align-items: center;
