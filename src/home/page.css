@@ -207,3 +207,11 @@
   color: rgba(0, 0, 0, 0.54);
   font-family: 'Soleil', sans-serif;
   font-size: 0.8rem; }
+
+.HomePage .svg-div {
+  align-self: center;
+  padding: 10px; }
+
+.HomePage .svg {
+  color: white;
+  font-size: 25px; }
