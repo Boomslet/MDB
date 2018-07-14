@@ -14,7 +14,9 @@
     justify-content: center;
     
     @media #{$small} {
-      background: blueviolet;
+      background: url('../static/jpg/mobile.jpg');
+      background-repeat: no-repeat;
+      background-size: 100vw 100vh;
     }
     
     @media #{$large} {

@@ -13,7 +13,9 @@
 
 @media only screen and (max-width: 499px) {
   .HomePage .header {
-    background: blueviolet; } }
+    background: url("../static/jpg/mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh; } }
 
 @media only screen and (min-width: 500px) {
   .HomePage .header {
