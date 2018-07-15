@@ -17,7 +17,13 @@
     background-repeat: no-repeat;
     background-size: 100vw 100vh; } }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 500px) and (max-width: 999px) {
+  .HomePage .header {
+    background: url("../static/jpg/laptop4.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh; } }
+
+@media only screen and (min-width: 999px) {
   .HomePage .header {
     background: url("../static/jpg/laptop4.jpg");
     background-repeat: no-repeat;
@@ -35,7 +41,12 @@
     font-size: 16px;
     width: 75%; } }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 500px) and (max-width: 999px) {
+  .HomePage .header-text {
+    font-size: 36px;
+    width: 65%; } }
+
+@media only screen and (min-width: 999px) {
   .HomePage .header-text {
     font-size: 36px;
     width: 65%; } }
@@ -58,7 +69,12 @@
     font-size: 25px;
     width: 75%; } }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 500px) and (max-width: 999px) {
+  .HomePage .aboutme-text {
+    font-size: 38px;
+    width: 70%; } }
+
+@media only screen and (min-width: 999px) {
   .HomePage .aboutme-text {
     font-size: 38px;
     width: 70%; } }
@@ -99,7 +115,11 @@
   .HomePage .contact-text-small {
     font-size: 12px; } }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 500px) and (max-width: 999px) {
+  .HomePage .contact-text-small {
+    font-size: 14px; } }
+
+@media only screen and (min-width: 999px) {
   .HomePage .contact-text-small {
     font-size: 14px; } }
 
@@ -114,7 +134,12 @@
     font-size: 17px;
     font-weight: 500; } }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 500px) and (max-width: 999px) {
+  .HomePage .contact-text-large {
+    font-size: 35px;
+    font-weight: 400; } }
+
+@media only screen and (min-width: 999px) {
   .HomePage .contact-text-large {
     font-size: 35px;
     font-weight: 400; } }
@@ -133,7 +158,13 @@
     flex-wrap: wrap;
     height: calc((5 * 64px) + (3 * 395px)); } }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 500px) and (max-width: 999px) {
+  .HomePage .projects {
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: calc((5 * 64px) + (3 * 395px)); } }
+
+@media only screen and (min-width: 999px) {
   .HomePage .projects {
     height: calc(100vh + 64px); } }
 

@@ -45,7 +45,12 @@
   .NavBar .nav-text {
     font-size: 12px; } }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 500px) and (max-width: 999px) {
+  .NavBar .nav-text {
+    font-size: 14px;
+    padding: 0 25px 0 0; } }
+
+@media only screen and (min-width: 999px) {
   .NavBar .nav-text {
     font-size: 14px;
     padding: 0 25px 0 0; } }
