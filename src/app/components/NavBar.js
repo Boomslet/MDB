@@ -7,10 +7,9 @@ import IconButton from '@material-ui/core/IconButton';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import SvgIcon from '@material-ui/core/SvgIcon';
-import Logo from '../../static/jpg/M_White.svg';
-
 
 import "./NavBar.css";
+
 
 var mobile = window.matchMedia("only screen and (max-width: 499px)").matches
 
