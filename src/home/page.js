@@ -1,13 +1,14 @@
 import React from "react";
 import Avatar from '@material-ui/core/Avatar';
-import Typography from "@material-ui/core/Typography";
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardHeader from '@material-ui/core/CardHeader';
 import CardMedia from '@material-ui/core/CardMedia';
 import IconButton from '@material-ui/core/IconButton';
+import Particles from 'react-particles-js';
 import SvgIcon from '@material-ui/core/SvgIcon';
+import Typography from "@material-ui/core/Typography";
 import "./page.css";
 
 var mobile = window.matchMedia("only screen and (max-width: 499px)").matches
@@ -19,6 +20,7 @@ export default class HomePage extends React.Component {
 
         {/* SPLASH HEADER */}
         <div className='header'>
+          <Particles height="100vh" width="100vw"/>
           <Avatar
             alt='MDB'
             className='avatar'

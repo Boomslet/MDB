@@ -24,6 +24,11 @@
   min-width: 0px;
   min-height: 0px; }
 
+.NavBar .logo {
+  height: 35px;
+  width: 35px;
+  margin-right: 25px; }
+
 .NavBar .navigation {
   display: flex;
   justify-self: flex-start; }

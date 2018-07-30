@@ -7,6 +7,8 @@ import IconButton from '@material-ui/core/IconButton';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import SvgIcon from '@material-ui/core/SvgIcon';
+import Logo from '../../static/jpg/M_White.svg';
+
 
 import "./NavBar.css";
 
@@ -35,13 +37,7 @@ class NavBar extends React.Component {
                 disableRipple
                 onClick={() => this.handleScroll('.header')}
               >
-                <Typography variant="title"
-                  classes={{
-                    root: "nav-text"
-                  }}
-                >
-                  LOGO
-                </Typography>
+                <img className="logo" src={require('../../static/jpg/M_White.png')}></img>
               </Button>
 
               <Button
