@@ -32,6 +32,10 @@
     height: 35px;
     width: 35px;
     margin-right: 25px;
+
+    @media #{$small} {
+      margin-right: 0px;
+    }
   }
   
   .navigation {
